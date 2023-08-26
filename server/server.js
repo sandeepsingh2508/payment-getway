@@ -6,8 +6,8 @@ connectDB();
 console.log("=================",process.env.RAZORPAY_API_KEY);
 
 export const instance = new Razorpay({
-  key_id: 'rzp_test_7fDUbeBwTi7gWK',
-  key_secret: 'XbtSx3KY4MX6jnljW6hFaKoA',
+  key_id: 'process.env.KEY_ID',
+  key_secret: 'process.env.RAZORPAY_APT_SECRET',
   // key_secret: process.env.RAZORPAY_APT_SECRET,
 
 });
